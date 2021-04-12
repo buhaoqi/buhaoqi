@@ -1,7 +1,7 @@
 # 设计师网址导航
 
 ## 图库
- - **[unsplash](https://unsplash.com/) ** `照片库` `免费商用` `高质量` `数量多` `无需注册` `颜色筛选` `方向筛选`
+ - **[unsplash](https://unsplash.com/)** `照片库` `免费商用` `高质量` `数量多` `无需注册` `颜色筛选` `方向筛选`
  - **[pxhere](https://pxhere.com/)**  `照片库`  `免费商用` `高质量` `数量多` `需注册` `颜色筛选` `方向筛选`
  - **[pixabay](https://pixabay.com/)**  `照片库` `插画库` `免费商用` `高质量` `数量一般` `无需注册` `颜色筛选` `方向筛选` `支持中文`
  - **[500px](https://500px.com/)**  `照片库` `付费` `免费`  
@@ -129,6 +129,6 @@
  - **[Portfolio用户指南](https://help.myportfolio.com/)**  `官网教程`
 
 
- ## 合成设计教程
+## 合成设计教程
 - **[rafya.id](https://rafya.id/)**  `国外合成设计教程站`
 - **[nemanjasekulic](https://nemanjasekulic.com/)**  `国外合成设计教程站`
