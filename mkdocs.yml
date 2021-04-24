@@ -1,5 +1,5 @@
 # Project information
-site_name: 不好奇
+site_name: 不好奇教程站
 site_url: https://buhaoqi.com
 site_author: zjsonic
 site_description: >-
@@ -49,7 +49,7 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
-
+  logo: assets/images/logo.svg
 
 # Customization
 extra:
