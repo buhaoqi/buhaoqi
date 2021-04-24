@@ -1,3 +1,188 @@
-site_name: My Docs
+# Project information
+site_name: 不好奇
+site_url: https://buhaoqi.com
+site_author: zjsonic
+site_description: >-
+  我的学习笔记
+# Repository
+repo_name: buhaoqi/buhaoqi
+repo_url: https://buhaoqi.github.io/buhaoqi/
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2021 - 2021 buhaoqi.com
+
+# Configuration
 theme:
   name: material
+
+  # Static files
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: zh
+  features:
+    # - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/squidfunk
+    - icon: fontawesome/brands/gitter
+      link: https://gitter.im/squidfunk/mkdocs-material
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/squidfunk/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/squidfunk
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - 首页: index.md
+  - PS教程:
+    - PS简介: ps-tutorials/about-ps.md
+    - 创建文档: ps-tutorials/getting-started.md
+    - 创建选区: ps-tutorials/selection.md
+    - 文本工具: ps-tutorials/text-tools.md
+    - 形状工具: ps-tutorials/shape-tools.md
+    - 标尺网格: ps-tutorials/ruler-grid.md
+    - 认识PS界面: ps-tutorials/ps-interface.md
+    - 钢笔工具: ps-tutorials/pen-tools.md
+    - 遮罩: ps-tutorials/masks.md
+    - 图层: ps-tutorials/layer.md
+    - 图层样式: ps-tutorials/layer-effects-styles.md
+    - 图像调整: ps-tutorials/image-adjustments.md
+    - 渐变: ps-tutorials/gradients.md
+    - 混合模式: ps-tutorials/blending-models.md
+    - 通道: ps-tutorials/channel.md
+    - 颜色模式: ps-tutorials/color-models.md
+    - 滤镜: ps-tutorials/filters.md
+    - 绘图: ps-tutorials/about-drawing.md
+  - AI教程:
+    - 起步: ai-tutorials/getting-started.md
+  - XD教程:
+    - Adobe XD简介: xd-tutorials/01-about-xd.md
+    - 认识XD的工作界面: xd-tutorials/02-xd-interface.md
+    - 创建画板: xd-tutorials/03-artboard.md
+    - 创建几何形状: xd-tutorials/04-create-simple-shapes.md
+    - 创建不规则形状: xd-tutorials/05-create-complex-shapes.md
+    - 使用布尔运算组合对象: xd-tutorials/02-xd-interface.md
+    - 文字工具: xd-tutorials/10-text-tool.md
+  - XD实例教程:
+    - 页面尺寸: xd-example-tutorials/01-page-dimension.md
+    - 页头: xd-example-tutorials/02-header.md
+    - 页脚: xd-example-tutorials/03-footer.md
+    - 音乐馆页面: xd-example-tutorials/04-concert-hall.md
+    - 我的音乐页面: xd-example-tutorials/05-my-music.md
+    - 客户端页面: xd-example-tutorials/05-my-music.md
+    - 开放平台页面: xd-example-tutorials/06-artists.md
+  - 计算机科学:
+    - 服务器: computer-science/lamp.md
+    - Linux命令: computer-science/linux-commands.md
+    - 包管理工具: computer-science/package-managers.md
+    - 术语: computer-science/termnology.md
+    - 计算机是什么: computer-science/what-is-computer.md
+  - blog:
+    - 移动优先桌面优先: blog/mobile-first-vs-desktop-first.md
+    - UX设计: blog/what-is-ux-design.md
+  - 英语:
+    - A: english/a-starting-vocabulary.md
+    - B: english/b-starting-vocabulary.md
+    - C: english/c-starting-vocabulary.md
+    - D: english/d-starting-vocabulary.md
+    - E: english/e-starting-vocabulary.md
+    - F: english/f-starting-vocabulary.md
+    - G: english/g-starting-vocabulary.md
+    - H: english/h-starting-vocabulary.md
+    - I: english/i-starting-vocabulary.md
+    - J: english/j-starting-vocabulary.md
+    - K: english/k-starting-vocabulary.md
+    - L: english/l-starting-vocabulary.md
+    - M: english/m-starting-vocabulary.md
+    - N: english/n-starting-vocabulary.md
+    - O: english/o-starting-vocabulary.md
+    - P: english/p-starting-vocabulary.md
+    - Q: english/q-starting-vocabulary.md
+    - R: english/r-starting-vocabulary.md
+    - S: english/s-starting-vocabulary.md
+    - T: english/t-starting-vocabulary.md
+    - U: english/u-starting-vocabulary.md
+    - V: english/v-starting-vocabulary.md
+    - W: english/w-starting-vocabulary.md
+    - X: english/x-starting-vocabulary.md
+    - Y: english/y-starting-vocabulary.md
+    - Z: english/z-starting-vocabulary.md
+  - 网址导航:
+    - 设计师常用站: bookmarks/designer-bookmarks.md
+    - 前端常用站: bookmarks/coder-bookmarks.md

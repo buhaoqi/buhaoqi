@@ -111,6 +111,7 @@
  - **[屏幕分辨率统计](https://cn.screenresolution.org/)**  `用户屏幕分辨率发展数据`
  - **[百度统计](https://tongji.baidu.com/research/site?source=index)**  `网站数据` `移动数据`
  - **[腾讯移动分析](https://mta.qq.com/mta/data/device)**  `网站数据` `移动数据`
+ - **[mydevice.io](https://www.mydevice.io/)**  `Useful reference for physical width/hight, CSS width/height, pixel ratio, physical ppi, and CSS ppi of various popular mobile and connected devices.`
  - **[放大图片](https://bigjpg.com/)**  `在线无损放大图片`
  - **[ICO转换器](https://www.icoconverter.com/)**  `在线转换ICO文件`
  - **[snipaste](https://www.icoconverter.com/)**  `截图+贴图` `win平台`  `免费`
